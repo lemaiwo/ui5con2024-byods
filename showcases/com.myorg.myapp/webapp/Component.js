@@ -1,6 +1,6 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent", "sap/ui/Device", "./model/models",
-	"sap/ui/dom/includeStylesheet", "kickstand-ui/dist/kickstand-ui/kickstand-ui"
+	"sap/ui/dom/includeStylesheet", "kickstand-ui/dist/kickstand-ui/kickstand-ui","@eliagroup-innersource/nova-components-native"
 ], function (UIComponent, Device, models, includeStylesheet) {
 	"use strict";
 

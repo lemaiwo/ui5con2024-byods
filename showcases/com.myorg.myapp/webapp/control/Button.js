@@ -4,9 +4,17 @@ sap.ui.define([
 	"use strict";
 	return WebComponent.extend("com.myorg.myapp.control.Button", {
 		metadata: {
-			tag: "ks-button",
+			tag: "nv-button",
 			properties: {
-				"text": {
+				"color": {
+					type: "string",
+					mapping: "Color"
+				},
+				"cta":{
+					type:"boolean",
+					mapping:"Cta"
+				},
+				"value": {
 					type: "string",
 					mapping: "textContent"
 				}

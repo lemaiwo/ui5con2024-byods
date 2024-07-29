@@ -13,8 +13,8 @@
 		title="{i18n>appTitle}"
 		id="page">
 		<content>
-      <control:Badge text="Hello World 123" color="secondary"/>
-			<control:Button text="Hello World 123" click="alert('xxx')"/>
+      		<control:Badge text="Hello World 123" icon="sun" color="primary"/>
+			<control:Button value="Hello World 123" cta="false" color="secondary" click="alert('xxx')"/>
 		</content>
 	</Page>
 

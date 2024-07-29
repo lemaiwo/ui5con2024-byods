@@ -54,6 +54,16 @@
 			}
 		},
 
+		"resources": {
+			"css": [
+			  {
+				"uri": "style/style.css"
+			  },
+			  {
+				"uri": "style/nova-components.css"
+			  }
+			]
+		  },
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",

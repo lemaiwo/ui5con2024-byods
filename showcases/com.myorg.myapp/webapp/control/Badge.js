@@ -4,13 +4,15 @@ sap.ui.define([
 	"use strict";
 	return WebComponent.extend("com.myorg.myapp.control.Badge", {
 		metadata: {
-			tag: "ks-badge",
+			tag: "nv-badge",
 			properties: {
-				"color": {
-					type: "string"
+				"icon": {
+					type: "string",
+					mapping: "Icon"
 				},
-				"hollow": {
-					type: "boolean"
+				"color":{
+					type:"string",
+					mapping:"Color"
 				},
 				"text": {
 					type: "string",
