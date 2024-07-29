@@ -13,8 +13,13 @@
 		title="{i18n>appTitle}"
 		id="page">
 		<content>
+			<control:Alert permanent="true" visible="true" color="primary" text="Demo of Elia Group Web Components into UI5 for non-Fiori like applications!" ></control:Alert>
       		<control:Badge text="Hello World 123" icon="sun" color="primary"/>
 			<control:Button value="Hello World 123" cta="false" color="secondary" click="alert('xxx')"/>
+			<HBox >
+				<control:Loader loading="true" size="xl" color="primary" ></control:Loader>
+				<control:Loader loading="true" size="xl" color="success" ></control:Loader>
+			</HBox>
 		</content>
 	</Page>
 
